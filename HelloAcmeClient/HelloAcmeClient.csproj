@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{58EF7CDC-CAF3-4D24-AE6E-774498691088}</ProjectGuid>
+    <ProjectGuid>{CE9B7D12-72D5-4EDE-99C0-4503266BE2F0}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HelloServiceAClient</RootNamespace>
-    <AssemblyName>HelloServiceAClient</AssemblyName>
+    <RootNamespace>HelloAcmeClient</RootNamespace>
+    <AssemblyName>HelloAcmeClient</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -80,6 +80,12 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HelloAcmeService\HelloAcmeService.csproj">
+      <Project>{6456251e-725a-420c-a795-a0a00baf8b91}</Project>
+      <Name>HelloAcmeService</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace HelloServiceAClient.ServiceReference1 {
+namespace HelloAcmeClient.ServiceReference1 {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -23,12 +23,12 @@ namespace HelloServiceAClient.ServiceReference1 {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IHelloServiceChannel : HelloServiceAClient.ServiceReference1.IHelloService, System.ServiceModel.IClientChannel {
+    public interface IHelloServiceChannel : HelloAcmeClient.ServiceReference1.IHelloService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class HelloServiceClient : System.ServiceModel.ClientBase<HelloServiceAClient.ServiceReference1.IHelloService>, HelloServiceAClient.ServiceReference1.IHelloService {
+    public partial class HelloServiceClient : System.ServiceModel.ClientBase<HelloAcmeClient.ServiceReference1.IHelloService>, HelloAcmeClient.ServiceReference1.IHelloService {
         
         public HelloServiceClient() {
         }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="3c685157-4e18-4619-9b14-b8c2c7e540a3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="04c57452-9e2c-430d-8a7c-11dac2eefe87" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,9 +22,9 @@
     <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/HelloAcmeService/HelloService/mex" Protocol="mex" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="4697cb5a-1eeb-46f1-aa83-788bf44969e0" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/HelloAcmeService/HelloService/mex" />
-    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="fa813bf8-bda3-45b2-aa9f-2c35804bcf08" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/HelloAcmeService/HelloService/mex" />
-    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="76866584-6a48-4033-a205-e4f001ad8ee6" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/HelloAcmeService/HelloService/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="95284b18-60e5-424a-833e-6069bb865013" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/HelloAcmeService/HelloService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="190a0bc4-d36c-4f60-b355-56064a9859bd" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/HelloAcmeService/HelloService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="f7ceb392-c8df-4b20-b651-c328fe01dc75" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/HelloAcmeService/HelloService/mex" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
